@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <div class="wrapper">
+        <form autocomplete="off">
+            <h3>Login</h3>
+            <div class="input-group">
+                <input type="email" id="inputField" name="email" required>
+                <label>Username</label>
+                <span class="icon">
+                    <i class="fa-regular fa-user"></i>
+                </span>
+                <span class="line"></span>
+            </div>
+            <div class="input-group">
+                <input type="password" name="password" id="password" required>
+                <label>Password</label>
+                <span class="icon" id="togglePassword">
+                    <i class="far fa-eye-slash"></i>
+                </span>
+                <span class="line"></span>
+            </div>
+            <div class="check">
+                <label>
+                    <input type="checkbox">
+                    Remember me
+                </label>
+            </div>
+            <input type="submit" name="submit" value="login now" class="form-btn">
+        </form>
+    </div>
+    
+</body>
+</html>
